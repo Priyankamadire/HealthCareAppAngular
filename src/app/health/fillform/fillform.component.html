@@ -1,0 +1,50 @@
+<div class="navbar">
+  <div class="logo">
+    <a href="#"><img class="logo-img" src="https://i0.wp.com/webenglish.se/wp-content/uploads/2019/08/health.jpg?fit=1200%2C1088&ssl=1" alt="Logo"></a>
+  </div>
+  <ul class="navlinks">
+    <li><a href="http://localhost:4200/about">About</a></li>
+    <li><a href="http://localhost:4200/view-doctor">Doctors</a></li>
+    <li><a href="http://localhost:4200/login">Book Appointment</a></li>
+    <li><a href="http://localhost:4200/contact">Contact</a></li>
+  </ul>
+</div>
+  <br><br> 
+<div class="parent">
+    <form>
+        <div class="form-group">
+          <label for="name">Enter Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="number" class="form-control" id="age" placeholder="Enter your age" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="healthIssue">Health Issue:</label>
+          <textarea class="form-control" id="healthIssue" rows="3" placeholder="Describe your health issue" required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="doctorName">Doctor Name:</label>
+          <select class="form-control" id="doctorName" required>
+              <option value="drJohnDoe">Dr. John Doe</option>
+              <option value="drJaneSmith">Dr. Jane Smith</option>
+              <option value="drAlexJohnson">Dr. Alex Johnson</option>
+              <!-- Add more options for additional doctors -->
+          </select>
+      </div>
+      
+        
+        <div class="form-group">
+          <label for="timingDate">Timing and Date:</label>
+          <input type="datetime-local" class="form-control" id="timingDate" required>
+        </div>
+        <br>
+        
+        <button  class="btn btn-warning"><a href="http://localhost:4200/submit-form">Submit Book Appointment</a></button>
+      </form>
+      
+</div>
